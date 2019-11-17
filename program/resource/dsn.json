@@ -1,0 +1,10 @@
+{
+  "microblog": {
+    "driver": "mysql",
+    "host": "127.0.0.2",
+    "id": "root",
+    "dbname": "db_microblog",
+    "passwd": "",
+    "port": 3306
+  }
+}

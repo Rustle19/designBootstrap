@@ -1,0 +1,114 @@
+body {
+  height: 100vh !important;
+  background-image: url('/img/inverted-default.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.profile-links > div {
+  margin: 10px auto;
+}
+
+.card {
+  box-shadow: gray;
+  padding: 50px;
+  margin: auto 20% auto;
+  background-color: #f8f8ff;
+}
+
+textarea,
+textarea:focus {
+  resize: none !important;
+  border: 0 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.center-content {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100%;
+}
+
+h6 {
+  display: flex;
+  flex-direction: row;
+}
+
+.social {
+  display: flex;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+@media screen and (max-width: 600px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin: auto;
+    padding: auto;
+  }
+
+  .col-6,
+  .col {
+    flex: auto !important;
+    max-width: none !important;
+    padding-right: 0px !important;
+  }
+
+  .tweetContent {
+    height: auto !important;
+  }
+}
+.profileNav {
+  position: fixed;
+  width: 25%;
+}
+.btnLike,
+.btnLikeList {
+  padding: 0px;
+}
+@media screen and (min-width: 900px) {
+  .home {
+    margin: auto 10%;
+  }
+
+  .tweetContent {
+    height: 23px;
+  }
+
+  /*.tweetLabelName {*/
+  /*    font-size: 17px;*/
+  /*}*/
+}
+
+img {
+  border-radius: 50%;
+}
+
+a,
+a:hover {
+  color: black;
+}
+
+.profile {
+  font-size: 20px;
+}
+
+h6:before,
+h6:after {
+  content: '';
+  flex: 1 1;
+  border-bottom: 1px solid gray;
+  margin: auto 6px auto;
+}
+
+.register {
+  margin: 10px;
+}
